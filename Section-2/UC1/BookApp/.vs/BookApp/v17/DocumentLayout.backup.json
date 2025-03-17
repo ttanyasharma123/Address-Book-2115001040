@@ -1,0 +1,198 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Prashant\\Desktop\\C#_Workshop\\BookApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DA2822D8-F28B-4C21-A00C-860322A454EE}|..\\ModelLayer\\ModelLayer.csproj|c:\\users\\prashant\\desktop\\c#_workshop\\modellayer\\dto\\addressbookentrydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F588FF0-F28B-4C8E-A0D6-859C2B8DDDB7}|BookApp.csproj|c:\\users\\prashant\\desktop\\c#_workshop\\bookapp\\controllers\\addressbookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F588FF0-F28B-4C8E-A0D6-859C2B8DDDB7}|BookApp.csproj|solutionrelative:controllers\\addressbookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF5E59F9-D2D8-4E9F-9823-63F8C80950F8}|..\\BusinessLayer\\BusinessLayer.csproj|c:\\users\\prashant\\desktop\\c#_workshop\\businesslayer\\helper\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F588FF0-F28B-4C8E-A0D6-859C2B8DDDB7}|BookApp.csproj|c:\\users\\prashant\\desktop\\c#_workshop\\bookapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F588FF0-F28B-4C8E-A0D6-859C2B8DDDB7}|BookApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF5E59F9-D2D8-4E9F-9823-63F8C80950F8}|..\\BusinessLayer\\BusinessLayer.csproj|c:\\users\\prashant\\desktop\\c#_workshop\\businesslayer\\validators\\addressbookentrydtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA2822D8-F28B-4C21-A00C-860322A454EE}|..\\ModelLayer\\ModelLayer.csproj|c:\\users\\prashant\\desktop\\c#_workshop\\modellayer\\model\\entities\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF5E59F9-D2D8-4E9F-9823-63F8C80950F8}|..\\BusinessLayer\\BusinessLayer.csproj|c:\\users\\prashant\\desktop\\c#_workshop\\businesslayer\\service\\addbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF5E59F9-D2D8-4E9F-9823-63F8C80950F8}|..\\BusinessLayer\\BusinessLayer.csproj|c:\\users\\prashant\\desktop\\c#_workshop\\businesslayer\\interface\\iaddbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B442289-A8BD-43A9-B25F-7E21A59607D8}|..\\RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\prashant\\desktop\\c#_workshop\\repositorylayer\\service\\addrl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B442289-A8BD-43A9-B25F-7E21A59607D8}|..\\RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\prashant\\desktop\\c#_workshop\\repositorylayer\\interface\\iaddrl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B442289-A8BD-43A9-B25F-7E21A59607D8}|..\\RepositoryLayer\\RepositoryLayer.csproj|c:\\users\\prashant\\desktop\\c#_workshop\\repositorylayer\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddressBookEntryDTOValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Prashant\\Desktop\\C#_Workshop\\BusinessLayer\\Validators\\AddressBookEntryDTOValidator.cs",
+              "RelativeDocumentMoniker": "..\\BusinessLayer\\Validators\\AddressBookEntryDTOValidator.cs",
+              "ToolTip": "C:\\Users\\Prashant\\Desktop\\C#_Workshop\\BusinessLayer\\Validators\\AddressBookEntryDTOValidator.cs",
+              "RelativeToolTip": "..\\BusinessLayer\\Validators\\AddressBookEntryDTOValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T01:51:54.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Prashant\\Desktop\\C#_Workshop\\BusinessLayer\\Helper\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "..\\BusinessLayer\\Helper\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\Prashant\\Desktop\\C#_Workshop\\BusinessLayer\\Helper\\MappingProfile.cs",
+              "RelativeToolTip": "..\\BusinessLayer\\Helper\\MappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T01:19:19.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AddressBookEntryDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Prashant\\Desktop\\C#_Workshop\\ModelLayer\\DTO\\AddressBookEntryDTO.cs",
+              "RelativeDocumentMoniker": "..\\ModelLayer\\DTO\\AddressBookEntryDTO.cs",
+              "ToolTip": "C:\\Users\\Prashant\\Desktop\\C#_Workshop\\ModelLayer\\DTO\\AddressBookEntryDTO.cs",
+              "RelativeToolTip": "..\\ModelLayer\\DTO\\AddressBookEntryDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T01:11:45.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Contact.cs",
+              "DocumentMoniker": "C:\\Users\\Prashant\\Desktop\\C#_Workshop\\ModelLayer\\Model\\Entities\\Contact.cs",
+              "RelativeDocumentMoniker": "..\\ModelLayer\\Model\\Entities\\Contact.cs",
+              "ToolTip": "C:\\Users\\Prashant\\Desktop\\C#_Workshop\\ModelLayer\\Model\\Entities\\Contact.cs",
+              "RelativeToolTip": "..\\ModelLayer\\Model\\Entities\\Contact.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T11:58:11.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddressBookController.cs",
+              "DocumentMoniker": "C:\\Users\\Prashant\\Desktop\\C#_Workshop\\BookApp\\Controllers\\AddressBookController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AddressBookController.cs",
+              "ToolTip": "C:\\Users\\Prashant\\Desktop\\C#_Workshop\\BookApp\\Controllers\\AddressBookController.cs",
+              "RelativeToolTip": "Controllers\\AddressBookController.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAgwEkAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T11:37:53.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Prashant\\Desktop\\C#_Workshop\\RepositoryLayer\\Context\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "..\\RepositoryLayer\\Context\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Prashant\\Desktop\\C#_Workshop\\RepositoryLayer\\Context\\AppDbContext.cs",
+              "RelativeToolTip": "..\\RepositoryLayer\\Context\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T09:10:35.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AddRL.cs",
+              "DocumentMoniker": "C:\\Users\\Prashant\\Desktop\\C#_Workshop\\RepositoryLayer\\Service\\AddRL.cs",
+              "RelativeDocumentMoniker": "..\\RepositoryLayer\\Service\\AddRL.cs",
+              "ToolTip": "C:\\Users\\Prashant\\Desktop\\C#_Workshop\\RepositoryLayer\\Service\\AddRL.cs",
+              "RelativeToolTip": "..\\RepositoryLayer\\Service\\AddRL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T09:08:10.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IAddRL.cs",
+              "DocumentMoniker": "C:\\Users\\Prashant\\Desktop\\C#_Workshop\\RepositoryLayer\\Interface\\IAddRL.cs",
+              "RelativeDocumentMoniker": "..\\RepositoryLayer\\Interface\\IAddRL.cs",
+              "ToolTip": "C:\\Users\\Prashant\\Desktop\\C#_Workshop\\RepositoryLayer\\Interface\\IAddRL.cs",
+              "RelativeToolTip": "..\\RepositoryLayer\\Interface\\IAddRL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T09:07:55.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AddBL.cs",
+              "DocumentMoniker": "C:\\Users\\Prashant\\Desktop\\C#_Workshop\\BusinessLayer\\Service\\AddBL.cs",
+              "RelativeDocumentMoniker": "..\\BusinessLayer\\Service\\AddBL.cs",
+              "ToolTip": "C:\\Users\\Prashant\\Desktop\\C#_Workshop\\BusinessLayer\\Service\\AddBL.cs",
+              "RelativeToolTip": "..\\BusinessLayer\\Service\\AddBL.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAgwC0AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T09:06:51.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IAddBL.cs",
+              "DocumentMoniker": "C:\\Users\\Prashant\\Desktop\\C#_Workshop\\BusinessLayer\\Interface\\IAddBL.cs",
+              "RelativeDocumentMoniker": "..\\BusinessLayer\\Interface\\IAddBL.cs",
+              "ToolTip": "C:\\Users\\Prashant\\Desktop\\C#_Workshop\\BusinessLayer\\Interface\\IAddBL.cs",
+              "RelativeToolTip": "..\\BusinessLayer\\Interface\\IAddBL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T09:06:34.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Prashant\\Desktop\\C#_Workshop\\BookApp\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Prashant\\Desktop\\C#_Workshop\\BookApp\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAIwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T08:55:50.704Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
