@@ -1,0 +1,71 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using AutoMapper;
+using BusinessLayer.Interface;
+using ModelLayer.DTO;
+using ModelLayer.Model.Entities;
+using RepositoryLayer.Interface;
+using RepositoryLayer.Service;
+
+namespace BusinessLayer.Service
+{
+    public class AddressBookService : IAddressBookService
+    {
+        private readonly IAddRL _repository;
+        private readonly IMapper _mapper;
+        private readonly IRabbitMQPublisherService _rabbitMQ;
+
+        public AddressBookService(IAddRL repository, IMapper mapper, IRabbitMQPublisherService rabbitMQ)
+        {
+            _repository = repository;
+            _mapper = mapper;
+            _rabbitMQ = rabbitMQ;
+        }
+        public async Task<IEnumerable<AddressBookEntryDTO>> GetAllContactsAsync()
+        {
+            var contacts = await _repository.GetAllContactsAsync();
+            return _mapper.Map<IEnumerable<AddressBookEntryDTO>>(contacts);
+        }
+
+        public async Task<AddressBookEntryDTO> GetContactByIdAsync(int id)
+        {
+            var contact = await _repository.GetContactByIdAsync(id);
+            return contact != null ? _mapper.Map<AddressBookEntryDTO>(contact) : null;
+        }
+
+        public async Task<bool> AddContactAsync(int userId, AddressBookEntryDTO contactDto)
+        {
+            var contact = _mapper.Map<Contact>(contactDto);
+            contact.UserId = userId; // Assign UserId from JWT token
+
+            bool isAdded = await _repository.AddContactAsync(contact);
+
+            if (isAdded)
+            {
+                // Publish RabbitMQ Event
+                var message = $"📌 New Contact Added: {contactDto.Name} (User ID: {userId})";
+                _rabbitMQ.PublishMessage(message, "contact_added");
+            }
+
+            return isAdded;
+        }
+
+        public async Task<bool> UpdateContactAsync(int id, AddressBookEntryDTO contactDto)
+        {
+            var existingContact = await _repository.GetContactByIdAsync(id);
+            if (existingContact == null) return false;
+
+            _mapper.Map(contactDto, existingContact);
+            return await _repository.UpdateContactAsync(existingContact);
+        }
+
+        public async Task<bool> DeleteContactAsync(int id)
+        {
+            return await _repository.DeleteContactAsync(id);
+        }
+
+    }
+}
